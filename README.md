@@ -2,6 +2,8 @@
 
 A package that makes it easy to use some operations and suffixes specific to the Turkish language.
 
+Note that this package only supports __UTF-8__ encoding.
+
 ## PHP Version Support
 
 Currently the required PHP minimum version is PHP __8.0__.
