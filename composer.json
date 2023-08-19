@@ -1,0 +1,45 @@
+{
+	"name": "drrefe/tr",
+	"description": "A package that makes it easy to use some operations and suffixes specific to the Turkish language.",
+	"type": "library",
+	"keywords": [
+		"drrefe",
+		"tr",
+		"turkish",
+		"suffix",
+		"suffixes",
+		"türk",
+		"türkçe",
+		"türkçe ekler"
+	],
+	"homepage": "https://github.com/drrefe/tr",
+	"license": "MIT",
+	"support": {
+		"issues": "https://github.com/drrefe/tr/issues",
+		"source": "https://github.com/drrefe/tr"
+	},
+	"authors": [
+		{
+			"name": "Ramazan Efe",
+			"homepage": "https://github.com/drrefe"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Drrefe\\Tr\\": "src/"
+		}
+	},
+	"require": {
+		"php": "^5.6|^7.0|^8.0"
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Drrefe\\Tr\\Tests\\": "tests/"
+		}
+	},
+	"config": {
+		"sort-packages": true
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
