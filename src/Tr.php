@@ -5,17 +5,6 @@ namespace Drrefe\Tr;
 class Tr
 {
 	/**
-	 * Turkish safe upper case string (strtoupper)
-	 * 
-	 * @param string $text
-	 * @return string
-	 */
-	public static function upperCase(string $text): string
-	{
-		return mb_strtoupper(str_replace(['i', 'ı'], ['İ', 'I'], $text), "UTF-8");
-	}
-
-	/**
 	 * Turkish safe lower case string (strtolower)
 	 * 
 	 * @param string $text
@@ -27,7 +16,29 @@ class Tr
 	}
 
 	/**
-	 * Turkish safe title string (ucfirst)
+	 * Turkish safe upper case string (strtoupper)
+	 * 
+	 * @param string $text
+	 * @return string
+	 */
+	public static function upperCase(string $text): string
+	{
+		return mb_strtoupper(str_replace(['i', 'ı'], ['İ', 'I'], $text), "UTF-8");
+	}
+
+	/**
+	 * Turkish safe upper case first string (ucfirst)
+	 * 
+	 * @param string $text
+	 * @return string
+	 */
+	public static function upperCaseFirst(string $text): string
+	{
+		return self::upperCase(mb_substr($text, 0, 1, "UTF-8")) . self::lowerCase(mb_substr($text, 1, null, "UTF-8"));
+	}
+
+	/**
+	 * Turkish safe title string (ucwords)
 	 * 
 	 * @param string $text
 	 * @return string
