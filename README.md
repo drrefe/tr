@@ -1,0 +1,1 @@
+A package that makes it easy to use some operations and suffixes specific to the Turkish language.
