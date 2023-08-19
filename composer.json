@@ -10,7 +10,9 @@
 		"suffixes",
 		"türk",
 		"türkçe",
-		"türkçe ekler"
+		"türkçe ekler",
+		"uppercase turkish",
+		"lowercase turkish"
 	],
 	"homepage": "https://github.com/drrefe/tr",
 	"license": "MIT",
@@ -30,7 +32,7 @@
 		}
 	},
 	"require": {
-		"php": "^5.6|^7.0|^8.0"
+		"php": "^8.0"
 	},
 	"autoload-dev": {
 		"psr-4": {
