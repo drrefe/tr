@@ -20,6 +20,33 @@ composer require drrefe/tr
 
 ## Usage
 
+Using Turkish Suffixes
+
+Supports `-e`, `-i`, `-in`, `-de`, `-den` suffixes
+
+`Str::suffix(string $suffix, string $text, ?array $config): string`
+
+Example:
+
+```php
+use Drrefe\Tr\Tr;
+
+echo Tr::suffix('e', 'Ahmet'); // Ahmet'e
+echo Tr::suffix('e', 'Ayşe'); // Ayşe'ye
+echo Tr::suffix('i', 'Arda'); // Arda'yı
+echo Tr::suffix('i', 'Doğu'); // Doğu'yu
+echo Tr::suffix('i', 'Kitap', ['apostrophe' => false]); // Kitabı
+echo Tr::suffix('in', 'Ankara'); // Ankara'nın
+echo Tr::suffix('in', 'Mehmet'); // Mehmet'in
+echo Tr::suffix('in', 'Bölük', ['apostrophe' => false]); // Bölüğün
+echo Tr::suffix('in', 'Mehmet', ['locale' => 'en']); // Mehmet's
+echo Tr::suffix('in', 'Enes', ['locale' => 'en']); // Enes'
+echo Tr::suffix('de', 'İstanbul'); // İstanbul'da
+echo Tr::suffix('de', 'Yozgat'); // Yozgat'ta
+echo Tr::suffix('den', 'Kitaplık', ['apostrophe' => false]); // Kitaplıktan
+
+```
+
 Converting Turkish text to lower case
 
 `Str::lowerCase(string $text): string`
