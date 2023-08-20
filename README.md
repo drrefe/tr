@@ -47,6 +47,29 @@ echo Tr::suffix('den', 'Kitaplık', ['apostrophe' => false]); // Kitaplıktan
 
 ```
 
+Example Results:
+
+| $locale| $text | $suffix = 'e' | $suffix = 'i' | $suffix = 'in' | $suffix = 'de' | $suffix = 'den' |
+| --- | --- | --- | --- | --- | --- | --- |
+| tr | Ahmet | Ahmet'e | Ahmet'i | Ahmet'in | Ahmet'te | Ahmet'ten |
+| tr | Hasan | Hasan'a | Hasan'ı | Hasan'ın | Hasan'da | Hasan'dan |
+| tr | Ayşe | Ayşe'ye | Ayşe'yi | Ayşe'nin | Ayşe'de | Ayşe'den |
+| tr | Arda | Arda'ya | Arda'yı | Arda'nın | Arda'da | Arda'dan |
+| tr | Bobo | Bobo'ya | Bobo'yu | Bobo'nun | Bobo'da | Bobo'dan |
+| tr | İnönü | İnönü'ye | İnönü'yü | İnönü'nün | İnönü'de | İnönü'den |
+| tr | İstanbul | İstanbul'a | İstanbul'u | İstanbul'un | İstanbul'da | İstanbul'dan |
+| tr | Ankara | Ankara'ya | Ankara'yı | Ankara'nın | Ankara'da | Ankara'dan |
+| tr | İzmir | İzmir'e | İzmir'i | İzmir'in | İzmir'de | İzmir'den |
+| tr | Kırklareli | Kırklareli'ne | Kırklareli'ni | Kırklareli'nin | Kırklareli'nde | Kırklareli'nden |
+| tr | Yozgat | Yozgat'a | Yozgat'ı | Yozgat'ın | Yozgat'ta | Yozgat'tan |
+| tr | Kitap | Kitaba | Kitabı | Kitabın | Kitapta | Kitaptan |
+| tr | Stok | Stoka | Stoku | Stokun | Stokta | Stoktan |
+| tr | Bölük | Bölüğe | Bölüğü | Bölüğün | Bölükte | Bölükten |
+| tr | Araç | Araca | Aracı | Aracın | Araçta | Araçtan |
+| tr | Hasat | Hasada | Hasadı | Hasadın | Hasatta | Hasattan |
+| en | Mehmet | - | - | Mehmet's | - | - |
+| en | Enes | - | - | Enes' | - | - |
+
 Converting Turkish text to lower case
 
 `Str::lowerCase(string $text): string`
