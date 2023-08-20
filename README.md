@@ -24,7 +24,7 @@ Using Turkish Suffixes
 
 Supports `-e`, `-i`, `-in`, `-de`, `-den` suffixes
 
-`Str::suffix(string $suffix, string $text, ?array $config): string`
+`Tr::suffix(string $suffix, string $text, ?array $config): string`
 
 Example:
 
@@ -72,7 +72,7 @@ Example Results:
 
 Converting Turkish text to lower case
 
-`Str::lowerCase(string $text): string`
+`Tr::lowerCase(string $text): string`
 
 Example:
 
@@ -86,7 +86,7 @@ echo Tr::lowerCase("bU paKetin kullanImı İle gÜvenli bİr Şekilde özeL karA
 
 Converting Turkish text to upper case
 
-`Str::upperCase(string $text): string`
+`Tr::upperCase(string $text): string`
 
 Example:
 
@@ -100,7 +100,7 @@ echo Tr::upperCase("bU paKetin kullanImı İle gÜvenli bİr Şekilde özeL karA
 
 Converting Turkish text to upper case first character
 
-`Str::upperCaseFirst(string $text): string`
+`Tr::upperCaseFirst(string $text): string`
 
 Example:
 
@@ -114,7 +114,7 @@ echo Tr::upperCaseFirst("bU paKetin kullanImı İle gÜvenli bİr Şekilde özeL
 
 Converting Turkish text to title (upper case first character of words)
 
-`Str::title(string $text): string`
+`Tr::title(string $text): string`
 
 Example:
 
