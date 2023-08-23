@@ -1,0 +1,200 @@
+[
+	{
+		"text": "Ahmet",
+		"locale": "tr",
+		"apostrophe": true,
+		"uppercase": false,
+		"expected_e": "Ahmet'e",
+		"expected_i": "Ahmet'i",
+		"expected_in": "Ahmet'in",
+		"expected_de": "Ahmet'te",
+		"expected_den": "Ahmet'ten"
+	},
+	{
+		"text": "Hasan",
+		"locale": "tr",
+		"apostrophe": true,
+		"uppercase": false,
+		"expected_e": "Hasan'a",
+		"expected_i": "Hasan'ı",
+		"expected_in": "Hasan'ın",
+		"expected_de": "Hasan'da",
+		"expected_den": "Hasan'dan"
+	},
+	{
+		"text": "Ayşe",
+		"locale": "tr",
+		"apostrophe": true,
+		"uppercase": false,
+		"expected_e": "Ayşe'ye",
+		"expected_i": "Ayşe'yi",
+		"expected_in": "Ayşe'nin",
+		"expected_de": "Ayşe'de",
+		"expected_den": "Ayşe'den"
+	},
+	{
+		"text": "Arda",
+		"locale": "tr",
+		"apostrophe": true,
+		"uppercase": false,
+		"expected_e": "Arda'ya",
+		"expected_i": "Arda'yı",
+		"expected_in": "Arda'nın",
+		"expected_de": "Arda'da",
+		"expected_den": "Arda'dan"
+	},
+	{
+		"text": "Bobo",
+		"locale": "tr",
+		"apostrophe": true,
+		"uppercase": false,
+		"expected_e": "Bobo'ya",
+		"expected_i": "Bobo'yu",
+		"expected_in": "Bobo'nun",
+		"expected_de": "Bobo'da",
+		"expected_den": "Bobo'dan"
+	},
+	{
+		"text": "İnönü",
+		"locale": "tr",
+		"apostrophe": true,
+		"uppercase": false,
+		"expected_e": "İnönü'ye",
+		"expected_i": "İnönü'yü",
+		"expected_in": "İnönü'nün",
+		"expected_de": "İnönü'de",
+		"expected_den": "İnönü'den"
+	},
+	{
+		"text": "İstanbul",
+		"locale": "tr",
+		"apostrophe": true,
+		"uppercase": false,
+		"expected_e": "İstanbul'a",
+		"expected_i": "İstanbul'u",
+		"expected_in": "İstanbul'un",
+		"expected_de": "İstanbul'da",
+		"expected_den": "İstanbul'dan"
+	},
+	{
+		"text": "Ankara",
+		"locale": "tr",
+		"apostrophe": true,
+		"uppercase": false,
+		"expected_e": "Ankara'ya",
+		"expected_i": "Ankara'yı",
+		"expected_in": "Ankara'nın",
+		"expected_de": "Ankara'da",
+		"expected_den": "Ankara'dan"
+	},
+	{
+		"text": "İzmir",
+		"locale": "tr",
+		"apostrophe": true,
+		"uppercase": false,
+		"expected_e": "İzmir'e",
+		"expected_i": "İzmir'i",
+		"expected_in": "İzmir'in",
+		"expected_de": "İzmir'de",
+		"expected_den": "İzmir'den"
+	},
+	{
+		"text": "Kırklareli",
+		"locale": "tr",
+		"apostrophe": true,
+		"uppercase": false,
+		"expected_e": "Kırklareli'ne",
+		"expected_i": "Kırklareli'ni",
+		"expected_in": "Kırklareli'nin",
+		"expected_de": "Kırklareli'nde",
+		"expected_den": "Kırklareli'nden"
+	},
+	{
+		"text": "Yozgat",
+		"locale": "tr",
+		"apostrophe": true,
+		"uppercase": false,
+		"expected_e": "Yozgat'a",
+		"expected_i": "Yozgat'ı",
+		"expected_in": "Yozgat'ın",
+		"expected_de": "Yozgat'ta",
+		"expected_den": "Yozgat'tan"
+	},
+	{
+		"text": "Kitap",
+		"locale": "tr",
+		"apostrophe": false,
+		"uppercase": false,
+		"expected_e": "Kitaba",
+		"expected_i": "Kitabı",
+		"expected_in": "Kitabın",
+		"expected_de": "Kitapta",
+		"expected_den": "Kitaptan"
+	},
+	{
+		"text": "Stok",
+		"locale": "tr",
+		"apostrophe": false,
+		"uppercase": false,
+		"expected_e": "Stoka",
+		"expected_i": "Stoku",
+		"expected_in": "Stokun",
+		"expected_de": "Stokta",
+		"expected_den": "Stoktan"
+	},
+	{
+		"text": "Bölük",
+		"locale": "tr",
+		"apostrophe": false,
+		"uppercase": false,
+		"expected_e": "Bölüğe",
+		"expected_i": "Bölüğü",
+		"expected_in": "Bölüğün",
+		"expected_de": "Bölükte",
+		"expected_den": "Bölükten"
+	},
+	{
+		"text": "Araç",
+		"locale": "tr",
+		"apostrophe": false,
+		"uppercase": false,
+		"expected_e": "Araca",
+		"expected_i": "Aracı",
+		"expected_in": "Aracın",
+		"expected_de": "Araçta",
+		"expected_den": "Araçtan"
+	},
+	{
+		"text": "Hasat",
+		"locale": "tr",
+		"apostrophe": false,
+		"uppercase": false,
+		"expected_e": "Hasada",
+		"expected_i": "Hasadı",
+		"expected_in": "Hasadın",
+		"expected_de": "Hasatta",
+		"expected_den": "Hasattan"
+	},
+	{
+		"text": "Mehmet",
+		"locale": "en",
+		"apostrophe": true,
+		"uppercase": false,
+		"expected_e": "Mehmet",
+		"expected_i": "Mehmet",
+		"expected_in": "Mehmet's",
+		"expected_de": "Mehmet",
+		"expected_den": "Mehmet"
+	},
+	{
+		"text": "Enes",
+		"locale": "en",
+		"apostrophe": true,
+		"uppercase": false,
+		"expected_e": "Enes",
+		"expected_i": "Enes",
+		"expected_in": "Enes'",
+		"expected_de": "Enes",
+		"expected_den": "Enes"
+	}
+]
