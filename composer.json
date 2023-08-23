@@ -45,6 +45,6 @@
 	"minimum-stability": "dev",
 	"prefer-stable": true,
 	"require-dev": {
-		"phpunit/phpunit": "*"
+		"phpunit/phpunit": "^10.3"
 	}
 }
