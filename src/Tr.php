@@ -59,12 +59,14 @@ class Tr
 	 * 
 	 * @param string $suffix 'e'|'i'|'in'|'de'|'den'
 	 * @param string $text
-	 * @param array $config ['locale' => string, 'apostrophe' => bool, 'uppercase' => bool]
+	 * @param string $locale default:'tr'
+	 * @param bool $apostrophe default: true
+	 * @param bool $uppercase default: false
 	 * @return string
 	 */
-	public static function suffix(string $suffix, string $text, array $config = array()): string
+	public static function suffix(string $suffix, string $text, string $locale = 'tr', bool $apostrophe = true, bool $uppercase = false): string
 	{
-		$suffixHandler = new SuffixHandler($suffix, $config);
+		$suffixHandler = new SuffixHandler($suffix, $locale, $apostrophe, $uppercase);
 		return $suffixHandler->handle($text);
 	}
 }

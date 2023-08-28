@@ -24,7 +24,7 @@ Using Turkish Suffixes
 
 Supports `-e`, `-i`, `-in`, `-de`, `-den` suffixes
 
-`Tr::suffix(string $suffix, string $text, ?array $config): string`
+`Tr::suffix(string $suffix, string $text, string $locale, bool $apostrophe, bool $uppercase): string`
 
 Example:
 
@@ -35,15 +35,15 @@ echo Tr::suffix('e', 'Ahmet'); // Ahmet'e
 echo Tr::suffix('e', 'Ayşe'); // Ayşe'ye
 echo Tr::suffix('i', 'Arda'); // Arda'yı
 echo Tr::suffix('i', 'Doğu'); // Doğu'yu
-echo Tr::suffix('i', 'Kitap', ['apostrophe' => false]); // Kitabı
+echo Tr::suffix('i', 'Kitap', apostrophe: false); // Kitabı
 echo Tr::suffix('in', 'Ankara'); // Ankara'nın
 echo Tr::suffix('in', 'Mehmet'); // Mehmet'in
-echo Tr::suffix('in', 'Bölük', ['apostrophe' => false]); // Bölüğün
-echo Tr::suffix('in', 'Mehmet', ['locale' => 'en']); // Mehmet's
-echo Tr::suffix('in', 'Enes', ['locale' => 'en']); // Enes'
+echo Tr::suffix('in', 'Bölük', apostrophe: false); // Bölüğün
+echo Tr::suffix('in', 'Mehmet', locale: 'en'); // Mehmet's
+echo Tr::suffix('in', 'Enes', locale: 'en'); // Enes'
 echo Tr::suffix('de', 'İstanbul'); // İstanbul'da
 echo Tr::suffix('de', 'Yozgat'); // Yozgat'ta
-echo Tr::suffix('den', 'Kitaplık', ['apostrophe' => false]); // Kitaplıktan
+echo Tr::suffix('den', 'KİTAPLIK', apostrophe: false, uppercase: true); // KİTAPLIKTAN
 
 ```
 

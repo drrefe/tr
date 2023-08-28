@@ -12,13 +12,13 @@ class SuffixHandler
 	private string $original;
 	private Text $text;
 
-	public function __construct(string $suffix, array $config)
+	public function __construct(string $suffix, string $locale, $apostrophe, $uppercase)
 	{
 		if (!in_array($suffix, array('e', 'i', 'in', 'de', 'den'))) {
 			throw new Exception("Suffix is not supported!");
 		}
 		$this->suffix = $suffix;
-		$this->config = new Config($config);
+		$this->config = new Config($locale, $apostrophe, $uppercase);
 	}
 
 	public function handle(string $text): string

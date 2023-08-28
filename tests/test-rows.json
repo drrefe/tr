@@ -132,6 +132,17 @@
 		"expected_den": "Kitaptan"
 	},
 	{
+		"text": "KİTAPLIK",
+		"locale": "tr",
+		"apostrophe": false,
+		"uppercase": true,
+		"expected_e": "KİTAPLIĞA",
+		"expected_i": "KİTAPLIĞI",
+		"expected_in": "KİTAPLIĞIN",
+		"expected_de": "KİTAPLIKTA",
+		"expected_den": "KİTAPLIKTAN"
+	},
+	{
 		"text": "Stok",
 		"locale": "tr",
 		"apostrophe": false,
